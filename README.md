@@ -57,7 +57,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-###⚡ Running the Project:
+### ⚡ Running the Project:
 
 Start the FastAPI server with Uvicorn:
 ```
