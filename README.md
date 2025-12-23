@@ -39,13 +39,13 @@ cd bug-tracker
 
 Create a virtual environment and activate it:
 
-# Windows
+### Windows
 ```
 python -m venv venv
 venv\Scripts\activate
 ```
 
-# macOS/Linux
+### macOS/Linux
 ```
 python -m venv venv
 source venv/bin/activate
@@ -58,6 +58,7 @@ pip install -r requirements.txt
 ```
 
 ⚡ Running the Project:
+
 Start the FastAPI server with Uvicorn:
 ```
 uvicorn main:app --reload
